@@ -9,6 +9,203 @@
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
     <style>
         
+body{
+    height: 200vh;
+    color: white;   
+    font-family: 'Baloo Bhai', cursive;
+}
+header{
+    /* position: fixed; */
+    right: 0;
+    /* left: 0;  */
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 5fr 1fr;
+    z-index: 20;
+}
+#background{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 130vh;
+    position: fixed;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+    /* top: 0; */
+    /* left: 0; */
+}
+#LogoImg{
+    height: 43px;
+    width: 120px;
+    filter: invert(93%);
+    /* margin-top: 24px; */
+    margin-left: 32px;
+    margin-top: 34px;
+    position: fixed;
+    /* position: absolute; */
+    /* left: 0; */
+}
+p{
+    margin: 0;
+    margin-left: 32px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 22px;
+    position: fixed;
+    top: 90px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    width:200px;
+    height: 155px;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+
+#left{
+    /* border: 2px solid green; */
+    height: 200px;
+    /* float: left; */
+    width: 200px;
+    margin: 3px;
+
+}
+#mid{
+    /* border: 2px solid red;    */
+    display: flex;
+    position: absolute;
+    right: 20px;
+    width:  800px;
+    font-size: 20px;
+    flex-direction: row-reverse;
+
+}
+ul{
+    display: flex;
+    list-style:none;
+    margin: 20px;
+    padding: 20px;
+}
+li{
+    margin: 20px;
+}
+/* #right{
+    border: 2px solid yellow;
+     float: right; 
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    height: 200px;
+
+} */
+hr{
+    color: white;
+}
+.container{
+    /* border: 2px solid red; */
+    z-index: 20;
+    height: 335px;
+    width: 553px;
+    position: absolute;
+    bottom: 118px;
+    right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+span{
+    font-size: 77px;
+    margin: 2px;
+    z-index: 0;
+}
+.scroll span{
+    font-size: 20px;
+}
+#your{
+    margin-right: 35px;
+    /* transform: rotate(45deg); */
+}
+.caption{
+    height: 316px;
+    width: 473px;
+    position: absolute;
+    bottom: -350px;
+    right: 103px;
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+    padding: 23px;
+    box-sizing: border-box  ;
+    /* margin: 23px; */
+    border-radius: 5%;
+    /* justify-content: center; */
+    text-align: justify;
+    padding-top: 31px;
+    
+}
+a:hover,btn:hover{
+    color: grey;
+    font-size: 22px;
+    text-decoration: underline;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.scroll{
+    height: 35px;
+    width: 113px;
+    font-size: small;
+    position: fixed;
+    bottom: 287px;
+    right: 10px;
+    transform: rotate(90deg);
+}
+/* .button{ */
+    /* height: 15px; */
+    /* width: 113px; */
+    /* position: absolute; */
+    /* bottom: -400px; */
+    /* right: 103px; */
+    /* border: 2px solid white; */
+/* } */
+#button{
+    height: 42px;
+    width: 154px;
+    position: absolute;
+    bottom: -500px;
+    right: 155px;
+    /* border: 2px solid red; */
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+}
+#button1{
+    /* height: 42px;  */
+    width: 56px;
+    position: absolute;
+    bottom: -546px;
+    right: 120px;
+    /* border: 2px solid green; */
+    background-color: #E8C061;
+    text-align: center;
+    /* padding-top: 11px; */
+    padding-bottom: -10%;
+    box-sizing: border-box;
+    font-size: 31px;
+    margin-bottom: 46px;
+    height: 42px;
+
+}
+#button1:hover{
+    font-size: 33px;
+}
+aside{
+    position: fixed;
+    left: 30px;
+}
     </style>
 </head>
 
